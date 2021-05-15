@@ -31,11 +31,11 @@ namespace ControlVersiones
         {
             this.tNombre = new System.Windows.Forms.TextBox();
             this.tApellidos = new System.Windows.Forms.TextBox();
-            this.tTeléfono = new System.Windows.Forms.TextBox();
+            this.tTelefono = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tListaSocios = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -53,12 +53,12 @@ namespace ControlVersiones
             this.tApellidos.Size = new System.Drawing.Size(100, 23);
             this.tApellidos.TabIndex = 1;
             // 
-            // tTeléfono
+            // tTelefono
             // 
-            this.tTeléfono.Location = new System.Drawing.Point(125, 70);
-            this.tTeléfono.Name = "tTeléfono";
-            this.tTeléfono.Size = new System.Drawing.Size(100, 23);
-            this.tTeléfono.TabIndex = 2;
+            this.tTelefono.Location = new System.Drawing.Point(125, 70);
+            this.tTelefono.Name = "tTelefono";
+            this.tTelefono.Size = new System.Drawing.Size(100, 23);
+            this.tTelefono.TabIndex = 2;
             // 
             // label1
             // 
@@ -87,14 +87,14 @@ namespace ControlVersiones
             this.label3.TabIndex = 5;
             this.label3.Text = "Móvil";
             // 
-            // textBox4
+            // tListaSocios
             // 
-            this.textBox4.Location = new System.Drawing.Point(27, 128);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(198, 105);
-            this.textBox4.TabIndex = 6;
+            this.tListaSocios.Location = new System.Drawing.Point(27, 128);
+            this.tListaSocios.Multiline = true;
+            this.tListaSocios.Name = "tListaSocios";
+            this.tListaSocios.ReadOnly = true;
+            this.tListaSocios.Size = new System.Drawing.Size(198, 105);
+            this.tListaSocios.TabIndex = 6;
             // 
             // button1
             // 
@@ -112,11 +112,11 @@ namespace ControlVersiones
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(254, 245);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.tListaSocios);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.tTeléfono);
+            this.Controls.Add(this.tTelefono);
             this.Controls.Add(this.tApellidos);
             this.Controls.Add(this.tNombre);
             this.Name = "Form1";
@@ -130,12 +130,13 @@ namespace ControlVersiones
 
         private System.Windows.Forms.TextBox tNombre;
         private System.Windows.Forms.TextBox tApellidos;
-        private System.Windows.Forms.TextBox tTeléfono;
+        private System.Windows.Forms.TextBox tTelefono;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox t;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tListaSocios;
     }
 }
 
