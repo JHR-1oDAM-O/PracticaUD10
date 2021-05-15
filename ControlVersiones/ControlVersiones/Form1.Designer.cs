@@ -83,9 +83,9 @@ namespace ControlVersiones
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(27, 70);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 15);
+            this.label3.Size = new System.Drawing.Size(37, 15);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Teléfono";
+            this.label3.Text = "Móvil";
             // 
             // textBox4
             // 
